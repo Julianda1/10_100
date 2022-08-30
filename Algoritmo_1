@@ -1,0 +1,5 @@
+nombre="julian david "
+curso="algoritmos "
+ano=2005
+edad=2022-ano
+print("hola ",nombre,"estas en el curso de",curso,"tu edad es ",edad)

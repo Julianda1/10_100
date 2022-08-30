@@ -1,0 +1,10 @@
+nombre=input("Ingrese su nombre ")
+curso=input("Ingrese el curso ")
+ano=int(input("ingrese su año "))
+edad=2022-ano
+print("nombre ",nombre,"curso ",curso,"edad ",edad)
+if edad >=18:
+    print("la persona es mayor de edad ")
+else:
+    print("la persona no es mayor de edad ")
+    

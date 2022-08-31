@@ -1,0 +1,10 @@
+precio=float(input("Ingrese el precio del producto: "))
+pago=float(input("Cuanto ha pagado el cliente "))
+devuelta=pago-precio
+faltan=precio-pago
+if (devuelta<0):
+    print("Falta dinero en el pago, el faltante es: ",faltan)
+elif (devuelta==0):
+    print("Se ha pagado exacto, no hay necesidad de dar devuelta",devuelta)
+if (devuelta>0):
+    print("La devuelta a dar es: ",devuelta)

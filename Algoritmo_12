@@ -1,0 +1,5 @@
+print("Ingrese la velocidad y el tiempo" )
+V=float(input("velocidad: "))
+T=float(input("tiempo: "))
+D=V*T
+print(D)

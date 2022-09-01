@@ -1,0 +1,11 @@
+print("Ingrese número de respuestas correctas: ")
+RC = int( input())
+print("Ingrese número de respuestas incorrectas: ")
+RI = int( input())
+print("Ingrese número de respuestas en blanco: ")
+RB = int( input())
+puntajeRC=RC*3
+puntajeRI=RI*-1
+puntajeRB=RB*0
+puntajefinal=puntajeRC+puntajeRI+puntajeRB
+print("El puntaje final es: ",puntajefinal)

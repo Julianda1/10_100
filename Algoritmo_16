@@ -1,0 +1,9 @@
+print("Complemento3: CAMBIOS DE PESOS a EUROS y DÓLARES")
+EU = 3.84
+DO = 2.28
+print("Ingrese la cantidad de pesos:")
+p = float( input())
+d = p/DO
+e = p/EU
+print("En", p, "pesos hay ", e, "euros")
+print("En", p, "pesos hay ", d, "dólares")

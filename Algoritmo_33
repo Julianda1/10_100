@@ -1,0 +1,15 @@
+print ("Ingrese la cantidad de números a comparar:")
+limite=int( input())
+print ("Ingrese los números: ")
+numero=int( input("Ingrese número: "))
+menor=numero
+mayor=numero
+for i in range(1, limite):
+    n = int( input("Ingrese número: "))
+    if numero < menor :
+        menor = n
+else:
+    if n > mayor :
+        mayor = n
+print ("El número menor es :" ,menor)
+print ("El número mayor es :", mayor)

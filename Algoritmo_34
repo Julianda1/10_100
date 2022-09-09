@@ -1,0 +1,5 @@
+sueldo= float( input("Ingrese Sueldo: "))
+if sueldo < 1000000:
+    aumento=sueldo*0.15
+sueldo=sueldo*aumento
+print("El sueldo es:", sueldo)

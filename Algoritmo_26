@@ -1,0 +1,5 @@
+litroPorGalon=3.785
+precioPorGalon=4.500
+consumo=float( input("Ingresar consumo: "))
+total = consumo*litroPorGalon*precioPorGalon
+print("Total:", total)

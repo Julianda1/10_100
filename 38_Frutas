@@ -1,0 +1,10 @@
+class Arreglos {
+    public static void main(String[] args) {
+        String[] frutas = new String[4];
+        frutas[0] = "Manzana ";
+        frutas[1] = "Banano ";
+        frutas[2] = "Sandia ";
+        frutas[3] = "Pera "; 
+        System.out.println("Mi fruta favorita es: "+frutas[3]);
+    }
+}

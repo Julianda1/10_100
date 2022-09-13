@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Tanquear { 
+
+    public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.println("Ingrese el precio" );
+
+int precio = sc.nextInt();
+System.out.println("Galones a tanquear: ");
+int galon = sc.nextInt();
+System.out.println("Precio a pagar: "+(galon*precio));
+
+    }
+}

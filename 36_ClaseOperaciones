@@ -1,0 +1,8 @@
+class Tanquear {
+    public static void main(String[] args) {
+        int PrecioxGalon = 18000;
+        int CantidadxGalon = 2;
+        int Total = PrecioxGalon * CantidadxGalon;
+        System.out.println("El total a pagar es: " +Total);
+    }
+}
